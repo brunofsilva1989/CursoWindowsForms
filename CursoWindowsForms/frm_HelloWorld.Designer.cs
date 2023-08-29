@@ -1,6 +1,6 @@
 ﻿namespace CursoWindowsForms
 {
-    partial class Form1
+    partial class frm_HelloWorld
     {
         /// <summary>
         ///  Required designer variable.

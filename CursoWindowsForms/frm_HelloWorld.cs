@@ -1,8 +1,8 @@
 namespace CursoWindowsForms
 {
-    public partial class Form1 : Form
+    public partial class frm_HelloWorld : Form
     {
-        public Form1()
+        public frm_HelloWorld()
         {
             InitializeComponent();
         }
