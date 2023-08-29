@@ -28,18 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            lbl_Titulo = new Label();
             SuspendLayout();
             // 
-            // Form1
+            // lbl_Titulo
+            // 
+            lbl_Titulo.AutoSize = true;
+            lbl_Titulo.Font = new Font("Swis721 BT", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            lbl_Titulo.Location = new Point(74, 36);
+            lbl_Titulo.Name = "lbl_Titulo";
+            lbl_Titulo.Size = new Size(302, 29);
+            lbl_Titulo.TabIndex = 0;
+            lbl_Titulo.Text = "Visual Studio .NET Version";
+            // 
+            // frm_HelloWorld
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(470, 450);
-            Name = "Form1";
-            Text = "Form1";
+            ClientSize = new Size(458, 189);
+            Controls.Add(lbl_Titulo);
+            Name = "frm_HelloWorld";
+            Text = "Hello World";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lbl_Titulo;
     }
 }
